@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Personagens.api</title>
+</head>
+
+<body>
+  <div>
+    <h1>Busca de Personagens <br> Rick and Morty</h1>
+    <form action="" method="get">
+      <input type="number" name="characterId" id="characterId" placeholder="Digite um número">
+      <hr>
+      <h2>Informações:</h2>
+      <hr>
+      <ul>
+        <li>
+          <label for="name">Nome:</label>
+          <input type="checkbox" name="name" id="name">
+        </li>
+        <li>
+          <label for="status">Status:</label>
+          <input type="checkbox" name="status" id="status">
+        </li>
+        <li>
+          <label for="species">Espécie:</label>
+          <input type="checkbox" name="species" id="species">
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <label for="gender">Gênero:</label>
+          <input type="checkbox" name="gender" id="gender">
+        </li>
+        <li>
+          <label for="origin">Planeta de origem:</label>
+          <input type="checkbox" name="origin" id="origin">
+        </li>
+        <li>
+          <label for="episode">Episódio:</label>
+          <input type="checkbox" name="episode" id="episode">
+        </li>
+      </ul>
+      <hr>
+      <button type="submit" id="btn">Buscar</button>
+      <button type="reset" id="reset">Limpar</button>
+    </form>
+  </div>
+  <div>
+    <img src="" alt="" id="img">
+    <div id="content"></div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
